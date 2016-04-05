@@ -24,5 +24,4 @@ class Solution:
             all_permutations = permutations
         return all_permutations
 
-# time complexity: 2^0*(0+1) + 2^1*(1+1) + ... + 2^(N-1)*(N-1+1) = 2^N(N-1)-1
-
+# wrong time complexity
